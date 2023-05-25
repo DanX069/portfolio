@@ -1,11 +1,11 @@
 # Portfolio Website
 
-This repository contains the code for my personal portfolio website. As a college student majoring in [your major], I built this portfolio to showcase my skills, projects, and experiences in [your field].
+This repository contains the code for my personal portfolio website. As a college student majoring in Computer Science and Engineering, I built this portfolio to showcase my skills, projects in CSE.
 
 ## Sections
 The website is divided into several sections:
 
-1. **Introduction:** A brief introduction about who I am, what I'm studying, and what I'm passionate about in the field of [your field].
+1. **Introduction:** A brief introduction about who I am, what I'm studying, and what I'm passionate about in the field of CSE.
 2. **Skills:** A rundown of my technical and soft skills.
 3. **Projects:** This section showcases the projects I've completed during my time at college, as well as any personal projects. Each project includes a brief description and a link to the project's GitHub repository.
 4. **Contact:** Contact information and links to my professional social networks like LinkedIn and GitHub.
@@ -23,7 +23,7 @@ To run this project locally:
 You should now be able to see the project running at localhost:3000.
 
 ## Contributing
-While this is a personal project, if you notice any bugs or have any suggestions to improve the website, please feel free to open an issue or submit a pull request.
+While this is a personal project, if you notice any bugs or have any suggestions to improve the website, please feel free to open an issue or submit a pull request:)
 
 ## License
 This project is open source and available under the [MIT License](LICENSE).
