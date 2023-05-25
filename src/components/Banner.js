@@ -58,12 +58,12 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Dan;`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Junior Undergrad", "Code Enthusiast", "Anime Aficionado" ]'><span className="wrap">{text}</span></span></h1>
                   <p>My name is Danish Mehmood. I am a junior undergrad in the Dept. of Computer Science and Engineering at the prestigious Indian Institute of Technology Kanpur, India. I love solving algorithms, making cool frontend, watching anime and listening to music. I am also intrigued by AI and Machine Learning.</p>
-                  <a href="/resume.pdf" download style={{ textDecoration: 'none' }}>
-    <button onClick={() => console.log('connect')}>
-        My Resume
-        < ArrowDownCircle size={25} />
-    </button>
-</a>
+                  <a href="https://drive.google.com/file/d/14o7rMmwRtuL0m4Kz7U_rFQzQryG-ZC5H/view?usp=sharing" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+                  <button onClick={() => console.log('connect')}>
+                      My Resume
+                      < ArrowDownCircle size={25} />
+                  </button>
+                </a>
 
               </div>}
             </TrackVisibility>
