@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.svg";
-import { ArrowRightCircle } from 'react-bootstrap-icons';
+import { ArrowDownCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -41,7 +41,7 @@ export const Banner = () => {
       setIsDeleting(false);
       setLoopNum(loopNum + 1);
       setIndex(1);
-      setDelta(500);
+      setDelta(400);
     } else {
       setIndex(prevIndex => prevIndex + 1);
     }
@@ -58,7 +58,13 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Dan;`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Junior Undergrad", "Code Enthusiast", "Anime Aficionado" ]'><span className="wrap">{text}</span></span></h1>
                   <p>My name is Danish Mehmood. I am a junior undergrad in the Dept. of Computer Science and Engineering at the prestigious Indian Institute of Technology Kanpur, India. I love solving algorithms, making cool frontend, watching anime and listening to music. I am also intrigued by AI and Machine Learning.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <a href="/resume.pdf" download style={{ textDecoration: 'none' }}>
+    <button onClick={() => console.log('connect')}>
+        My Resume
+        < ArrowDownCircle size={25} />
+    </button>
+</a>
+
               </div>}
             </TrackVisibility>
           </Col>
