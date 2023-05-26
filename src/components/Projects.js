@@ -64,7 +64,7 @@ export const Projects = () => {
       repoUrl: "https://github.com/DanX069/portfolio",
     },
     {
-      title: "Proj9",
+      title: "Proj",
       description: "A project of future probably:)",
       imgUrl: projImg4,
       repoUrl: "https://github.com/DanX069/",
