@@ -43,7 +43,7 @@ export const Projects = () => {
       title: "ML and DL",
       description: "Acquired basic ML and DL knowledge, and applied it to a practical project.",
       imgUrl: projImg5,
-      repoUrl: "https://github.com/DanX069/SMARTEX-CAEES",
+      repoUrl: "https://github.com/DanX069/Intro-to-ML-and-DL",
     },
     {
       title: "BlockChain101",
@@ -61,7 +61,7 @@ export const Projects = () => {
       title: "Portfolio Website",
       description: "An interactive, responsive React portfolio website.",
       imgUrl: projImg8,
-      repoUrl: "https://github.com/DanX069/SMARTEX-CAEES",
+      repoUrl: "https://github.com/DanX069/portfolio",
     },
     {
       title: "Proj9",
