@@ -16,7 +16,7 @@ This website is built using React.js and Bootstrap for the frontend. CSS is used
 ## Usage
 To run this project locally:
 
-1. Clone the repository: `git clone https://github.com/[yourusername]/[yourrepositoryname].git`
+1. Clone the repository: `git clone git@github.com:DanX069/portfolio.git`
 2. Install dependencies: `npm install`
 3. Start the project: `npm start`
 
