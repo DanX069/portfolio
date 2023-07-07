@@ -37,7 +37,7 @@ export const Projects = () => {
       title: "CV in C",
       description: "An extensive Computer Vision Library in C.",
       imgUrl: projImg4,
-      repoUrl: "https://github.com/DanX069/SMARTEX-CAEES",
+      repoUrl: "https://github.com/DanX069/CV-in-C",
     },
     {
       title: "ML and DL",
